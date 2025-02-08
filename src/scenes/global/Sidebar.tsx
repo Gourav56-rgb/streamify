@@ -42,7 +42,7 @@ type SidebarProps = {
   isSidebar: boolean;
 };
 
-const Sidebar = ({ isSidebar }: SidebarProps) => {
+const Sidebar = ({ }: SidebarProps) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   const [isCollapsed, setIsCollapsed] = useState(false);
